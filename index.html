@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="css/main.css" media="all" />
+  </head>
+  <body>
+    <script type="text/javascript" src="js/main.js"></script>
+    <div class="layout">
+      <div class="modal fade portfolio__item-first" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title">Modal title</h4>
+            </div>
+            <div class="modal-body">
+              <p><img class="img-responsive" src="img/portfolio__item-1.png" /></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section id="home">
+        <header class="header">
+          <div class="container">
+            <div class="header__logo pull-left"><a href="#">Site logo</a></div>
+            <button type="button" class="header__menu-button visible-xs" data-toggle="collapse" data-target="#collapseNav" aria-expanded="false" aria-controls="collapseNav">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+        
+            <nav class="hidden-xs">
+                <ul class="header__menu pull-right">
+                  <li><a href="#about">Обо мне</a></li>
+                  <li><a href="#skills">Навыки</a></li>
+                  <li><a href="#portfolio">Портфолио</a></li>
+                  <li><a href="#feedback">Обратная связь</a></li>
+                </ul>
+            </nav>
+          </div>
+        
+            <nav id="collapseNav" class="collapse">
+                <ul class="header__menu visible-xs">
+                  <li><a href="#about">Обо мне</a></li>
+                  <li><a href="#skills">Навыки</a></li>
+                  <li><a href="#portfolio">Портфолио</a></li>
+                  <li><a href="#feedback">Обратная связь</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <div class="header-fixed">
+          <div class="container">
+            <div class="header-fixed__logo pull-left"><a href="#home">Site logo</a></div>
+            <button type="button" class="header-fixed__menu-button visible-xs visible-sm" data-toggle="collapse" data-target="#collapseNav1" aria-expanded="false" aria-controls="collapseNav1">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+        
+            <nav class="hidden-xs hidden-sm">
+                <ul class="header-fixed__menu pull-right">
+                  <li><a href="#home">Наверх</a></li>
+                  <li><a href="#about">Обо мне</a></li>
+                  <li><a href="#skills">Навыки</a></li>
+                  <li><a href="#portfolio">Портфолио</a></li>
+                  <li><a href="#feedback">Обратная связь</a></li>
+                </ul>
+            </nav>
+          </div>
+        
+            <nav id="collapseNav1" class="collapse">
+                <ul class="header-fixed__menu visible-xs visible-sm">
+                  <li><a href="#home">Наверх</a></li>
+                  <li><a href="#about">Обо мне</a></li>
+                  <li><a href="#skills">Навыки</a></li>
+                  <li><a href="#portfolio">Портфолио</a></li>
+                  <li><a href="#feedback">Обратная связь</a></li>
+                </ul>
+            </nav>
+        </div>
+        <section class="promo container">
+          <div class="row">
+            <h1 class="promo__heading col-xs-12">We Have Talented Team</h1>
+            <p class="promo__paragraph col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
+          </div>
+          <a href="#about"><div class="promo__button center-block"><div class="promo__button-hover"></div></div></a>
+        </section>
+      </section>
+    </div>
+
+    <main>
+      <section id="about" class="about">
+        <div class="container">
+          <div class="title">
+            <h4 class="title__sub-heading">кто я</h4>
+            <h3 class="title__heading">Обо мне</h3>
+            <div class="title__triangle">
+              <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+                 width="60.000000pt" height="30.000000pt" viewBox="0 0 60.000000 30.000000"
+                 preserveAspectRatio="xMidYMid meet">
+                <defs>
+                  <linearGradient id="Gradient1" x1="0" y1="0" x2="0" y2="100%">
+                    <stop offset="0%" stop-color="#ef8c3d" />
+                    <stop offset="100%" stop-color="#bc257c" />
+                  </linearGradient>
+                </defs>
+                <g transform="translate(0.000000,30.000000) scale(0.100000,-0.100000)"
+                  fill= "url(#Gradient1)" stroke="none">
+                  <path d="M148 148 l152 -153 152 153 153 152 -305 0 -305 0 153 -152z m289 5
+                    l-137 -138 -137 138 -138 137 275 0 275 0 -138 -137z"/>
+                </g>
+              </svg>
+            </div>
+          </div>
+      
+          <div class="about__content row">
+            <div class="col-lg-3 col-md-2 col-sm-3 hidden-xs"><img class="about__photo" src="img/photo.png" /></div>
+      
+            <h5 class="about__name col-lg-9 col-md-9 col-sm-9">Иван Амелин</h5>
+            <h6 class="about__prof col-lg-9 col-md-9 col-sm-9">Junior Front-End Developer</h6>
+            <p class="about__paragraph col-lg-9 col-md-9 col-sm-9">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div><!--content+row-->
+        </div><!--container-->
+      </section>
+      <section id="skills" class="skills">
+        <div class="container">
+          <div class="title">
+            <h4 class="title__sub-heading">лучшие умения</h4>
+            <h3 class="title__heading">Навыки</h3>
+            <div class="title__triangle">
+              <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+                 width="60.000000pt" height="30.000000pt" viewBox="0 0 60.000000 30.000000"
+                 preserveAspectRatio="xMidYMid meet">
+                <defs>
+                  <linearGradient id="Gradient1" x1="0" y1="0" x2="0" y2="100%">
+                    <stop offset="0%" stop-color="#ef8c3d" />
+                    <stop offset="100%" stop-color="#bc257c" />
+                  </linearGradient>
+                </defs>
+                <g transform="translate(0.000000,30.000000) scale(0.100000,-0.100000)"
+                  fill= "url(#Gradient1)" stroke="none">
+                  <path d="M148 148 l152 -153 152 153 153 152 -305 0 -305 0 153 -152z m289 5
+                    l-137 -138 -137 138 -138 137 275 0 275 0 -138 -137z"/>
+                </g>
+              </svg>
+            </div>
+          </div>
+      
+          <div class="skills__content row">
+            <div class="col-lg-6">
+              <div class="skills__item">
+                <div class="skills__name">html5</div>
+                <div class="skills__percentage">90%</div>
+                <div class="skills__bar">
+                  <div class="skills__bar_html5 skills__bar_fill"></div>
+                </div>
+              </div>
+      
+              <div class="skills__item">
+                <div class="skills__name">css3</div>
+                <div class="skills__percentage">85%</div>
+                <div class="skills__bar">
+                  <div class="skills__bar_fill skills__bar_css3"></div>
+                </div>
+              </div>
+      
+              <div class="skills__item">
+                <div class="skills__name">javascript</div>
+                <div class="skills__percentage">35%</div>
+                <div class="skills__bar">
+                  <div class="skills__bar_fill skills__bar_js"></div>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-lg-6">
+              <div class="skills__item">
+                <div class="skills__name">sass</div>
+                <div class="skills__percentage">65%</div>
+                <div class="skills__bar">
+                  <div class="skills__bar_fill skills__bar_sass"></div>
+                </div>
+              </div>
+      
+              <div class="skills__item">
+                <div class="skills__name">jquery</div>
+                <div class="skills__percentage">40%</div>
+                <div class="skills__bar">
+                  <div class="skills__bar_fill skills__bar_jquery"></div>
+                </div>
+              </div>
+      
+              <div class="skills__item">
+                <div class="skills__name">angular1</div>
+                <div class="skills__percentage">30%</div>
+                <div class="skills__bar">
+                  <div class="skills__bar_fill skills__bar_ng"></div>
+                </div>
+              </div>
+            </div>
+          </div><!--content+row-->
+        </div><!--conteiner-->
+      </section>
+      <section id="portfolio" class="portfolio">
+        <div class="container">
+          <div class="title">
+            <h4 class="title__sub-heading">мои последние работы</h4>
+            <h3 class="title__heading">Портфолио</h3>
+            <div class="title__triangle">
+              <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+                 width="60.000000pt" height="30.000000pt" viewBox="0 0 60.000000 30.000000"
+                 preserveAspectRatio="xMidYMid meet">
+                <defs>
+                  <linearGradient id="Gradient1" x1="0" y1="0" x2="0" y2="100%">
+                    <stop offset="0%" stop-color="#ef8c3d" />
+                    <stop offset="100%" stop-color="#bc257c" />
+                  </linearGradient>
+                </defs>
+                <g transform="translate(0.000000,30.000000) scale(0.100000,-0.100000)"
+                  fill= "url(#Gradient1)" stroke="none">
+                  <path d="M148 148 l152 -153 152 153 153 152 -305 0 -305 0 153 -152z m289 5
+                    l-137 -138 -137 138 -138 137 275 0 275 0 -138 -137z"/>
+                </g>
+              </svg>
+            </div>
+          </div>
+      
+          <div class="portfolio__content row">
+              <div class="col-lg-4 col-md-6">
+                <div class="portfolio__item">
+                  <a data-toggle="modal" data-target=".portfolio__item-first"><img class="portfolio__image" src="img/portfolio__item-1-min.png" /></a>
+                </div>
+              </div>
+      
+              <div class="col-lg-4 col-md-6">
+                <div class="portfolio__item--empty">
+                  <div class="portfolio__item--empty-tools">
+                    <?xml version="1.0" encoding="iso-8859-1"?>
+                    <!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 482.568 482.568" style="enable-background:new 0 0 482.568 482.568;" xml:space="preserve" width="195px" height="195px">
+                    <g>
+                      <g>
+                        <path d="M116.993,203.218c13.4-1.8,26.8,2.8,36.3,12.3l24,24l22.7-22.6l-32.8-32.7c-5.1-5.1-5.1-13.4,0-18.5s13.4-5.1,18.5,0    l32.8,32.8l22.7-22.6l-24.1-24.1c-9.5-9.5-14.1-23-12.3-36.3c4-30.4-5.7-62.2-29-85.6c-23.8-23.8-56.4-33.4-87.3-28.8    c-4.9,0.7-6.9,6.8-3.4,10.3l30.9,30.9c14.7,14.7,14.7,38.5,0,53.1l-19,19c-14.7,14.7-38.5,14.7-53.1,0l-31-30.9    c-3.5-3.5-9.5-1.5-10.3,3.4c-4.6,30.9,5,63.5,28.8,87.3C54.793,197.518,86.593,207.218,116.993,203.218z" fill="#ffffff"/>
+                        <path d="M309.193,243.918l-22.7,22.6l134.8,134.8c5.1,5.1,5.1,13.4,0,18.5s-13.4,5.1-18.5,0l-134.8-134.8l-22.7,22.6l138.9,138.9    c17.6,17.6,46.1,17.5,63.7-0.1s17.6-46.1,0.1-63.7L309.193,243.918z" fill="#ffffff"/>
+                        <path d="M361.293,153.918h59.9l59.9-119.7l-29.9-29.9l-119.8,59.8v59.9l-162.8,162.3l-29.3-29.2l-118,118    c-24.6,24.6-24.6,64.4,0,89s64.4,24.6,89,0l118-118l-29.9-29.9L361.293,153.918z" fill="#ffffff"/>
+                      </g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="col-lg-4 col-md-6">
+                <div class="portfolio__item--empty">
+                  <div class="portfolio__item--empty-tools">
+                    <?xml version="1.0" encoding="iso-8859-1"?>
+                    <!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 482.568 482.568" style="enable-background:new 0 0 482.568 482.568;" xml:space="preserve" width="195px" height="195px">
+                    <g>
+                      <g>
+                        <path d="M116.993,203.218c13.4-1.8,26.8,2.8,36.3,12.3l24,24l22.7-22.6l-32.8-32.7c-5.1-5.1-5.1-13.4,0-18.5s13.4-5.1,18.5,0    l32.8,32.8l22.7-22.6l-24.1-24.1c-9.5-9.5-14.1-23-12.3-36.3c4-30.4-5.7-62.2-29-85.6c-23.8-23.8-56.4-33.4-87.3-28.8    c-4.9,0.7-6.9,6.8-3.4,10.3l30.9,30.9c14.7,14.7,14.7,38.5,0,53.1l-19,19c-14.7,14.7-38.5,14.7-53.1,0l-31-30.9    c-3.5-3.5-9.5-1.5-10.3,3.4c-4.6,30.9,5,63.5,28.8,87.3C54.793,197.518,86.593,207.218,116.993,203.218z" fill="#ffffff"/>
+                        <path d="M309.193,243.918l-22.7,22.6l134.8,134.8c5.1,5.1,5.1,13.4,0,18.5s-13.4,5.1-18.5,0l-134.8-134.8l-22.7,22.6l138.9,138.9    c17.6,17.6,46.1,17.5,63.7-0.1s17.6-46.1,0.1-63.7L309.193,243.918z" fill="#ffffff"/>
+                        <path d="M361.293,153.918h59.9l59.9-119.7l-29.9-29.9l-119.8,59.8v59.9l-162.8,162.3l-29.3-29.2l-118,118    c-24.6,24.6-24.6,64.4,0,89s64.4,24.6,89,0l118-118l-29.9-29.9L361.293,153.918z" fill="#ffffff"/>
+                      </g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="col-lg-4 col-md-6">
+                <div class="portfolio__item--empty">
+                  <div class="portfolio__item--empty-tools">
+                    <?xml version="1.0" encoding="iso-8859-1"?>
+                    <!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 482.568 482.568" style="enable-background:new 0 0 482.568 482.568;" xml:space="preserve" width="195px" height="195px">
+                    <g>
+                      <g>
+                        <path d="M116.993,203.218c13.4-1.8,26.8,2.8,36.3,12.3l24,24l22.7-22.6l-32.8-32.7c-5.1-5.1-5.1-13.4,0-18.5s13.4-5.1,18.5,0    l32.8,32.8l22.7-22.6l-24.1-24.1c-9.5-9.5-14.1-23-12.3-36.3c4-30.4-5.7-62.2-29-85.6c-23.8-23.8-56.4-33.4-87.3-28.8    c-4.9,0.7-6.9,6.8-3.4,10.3l30.9,30.9c14.7,14.7,14.7,38.5,0,53.1l-19,19c-14.7,14.7-38.5,14.7-53.1,0l-31-30.9    c-3.5-3.5-9.5-1.5-10.3,3.4c-4.6,30.9,5,63.5,28.8,87.3C54.793,197.518,86.593,207.218,116.993,203.218z" fill="#ffffff"/>
+                        <path d="M309.193,243.918l-22.7,22.6l134.8,134.8c5.1,5.1,5.1,13.4,0,18.5s-13.4,5.1-18.5,0l-134.8-134.8l-22.7,22.6l138.9,138.9    c17.6,17.6,46.1,17.5,63.7-0.1s17.6-46.1,0.1-63.7L309.193,243.918z" fill="#ffffff"/>
+                        <path d="M361.293,153.918h59.9l59.9-119.7l-29.9-29.9l-119.8,59.8v59.9l-162.8,162.3l-29.3-29.2l-118,118    c-24.6,24.6-24.6,64.4,0,89s64.4,24.6,89,0l118-118l-29.9-29.9L361.293,153.918z" fill="#ffffff"/>
+                      </g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="col-lg-4 col-md-6">
+                <div class="portfolio__item--empty">
+                  <div class="portfolio__item--empty-tools">
+                    <?xml version="1.0" encoding="iso-8859-1"?>
+                    <!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 482.568 482.568" style="enable-background:new 0 0 482.568 482.568;" xml:space="preserve" width="195px" height="195px">
+                    <g>
+                      <g>
+                        <path d="M116.993,203.218c13.4-1.8,26.8,2.8,36.3,12.3l24,24l22.7-22.6l-32.8-32.7c-5.1-5.1-5.1-13.4,0-18.5s13.4-5.1,18.5,0    l32.8,32.8l22.7-22.6l-24.1-24.1c-9.5-9.5-14.1-23-12.3-36.3c4-30.4-5.7-62.2-29-85.6c-23.8-23.8-56.4-33.4-87.3-28.8    c-4.9,0.7-6.9,6.8-3.4,10.3l30.9,30.9c14.7,14.7,14.7,38.5,0,53.1l-19,19c-14.7,14.7-38.5,14.7-53.1,0l-31-30.9    c-3.5-3.5-9.5-1.5-10.3,3.4c-4.6,30.9,5,63.5,28.8,87.3C54.793,197.518,86.593,207.218,116.993,203.218z" fill="#ffffff"/>
+                        <path d="M309.193,243.918l-22.7,22.6l134.8,134.8c5.1,5.1,5.1,13.4,0,18.5s-13.4,5.1-18.5,0l-134.8-134.8l-22.7,22.6l138.9,138.9    c17.6,17.6,46.1,17.5,63.7-0.1s17.6-46.1,0.1-63.7L309.193,243.918z" fill="#ffffff"/>
+                        <path d="M361.293,153.918h59.9l59.9-119.7l-29.9-29.9l-119.8,59.8v59.9l-162.8,162.3l-29.3-29.2l-118,118    c-24.6,24.6-24.6,64.4,0,89s64.4,24.6,89,0l118-118l-29.9-29.9L361.293,153.918z" fill="#ffffff"/>
+                      </g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="col-lg-4 col-md-6">
+                <div class="portfolio__item--empty">
+                  <div class="portfolio__item--empty-tools">
+                    <?xml version="1.0" encoding="iso-8859-1"?>
+                    <!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 482.568 482.568" style="enable-background:new 0 0 482.568 482.568;" xml:space="preserve" width="195px" height="195px">
+                    <g>
+                      <g>
+                        <path d="M116.993,203.218c13.4-1.8,26.8,2.8,36.3,12.3l24,24l22.7-22.6l-32.8-32.7c-5.1-5.1-5.1-13.4,0-18.5s13.4-5.1,18.5,0    l32.8,32.8l22.7-22.6l-24.1-24.1c-9.5-9.5-14.1-23-12.3-36.3c4-30.4-5.7-62.2-29-85.6c-23.8-23.8-56.4-33.4-87.3-28.8    c-4.9,0.7-6.9,6.8-3.4,10.3l30.9,30.9c14.7,14.7,14.7,38.5,0,53.1l-19,19c-14.7,14.7-38.5,14.7-53.1,0l-31-30.9    c-3.5-3.5-9.5-1.5-10.3,3.4c-4.6,30.9,5,63.5,28.8,87.3C54.793,197.518,86.593,207.218,116.993,203.218z" fill="#ffffff"/>
+                        <path d="M309.193,243.918l-22.7,22.6l134.8,134.8c5.1,5.1,5.1,13.4,0,18.5s-13.4,5.1-18.5,0l-134.8-134.8l-22.7,22.6l138.9,138.9    c17.6,17.6,46.1,17.5,63.7-0.1s17.6-46.1,0.1-63.7L309.193,243.918z" fill="#ffffff"/>
+                        <path d="M361.293,153.918h59.9l59.9-119.7l-29.9-29.9l-119.8,59.8v59.9l-162.8,162.3l-29.3-29.2l-118,118    c-24.6,24.6-24.6,64.4,0,89s64.4,24.6,89,0l118-118l-29.9-29.9L361.293,153.918z" fill="#ffffff"/>
+                      </g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+          </div><!--content-->
+        </div><!--container-->
+      </section>
+      <section id="feedback" class="about">
+        <div class="container">
+          <div class="title">
+            <h4 class="title__sub-heading">скажи привет</h4>
+            <h3 class="title__heading">Обратная связь</h3>
+            <div class="title__triangle">
+              <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+                 width="60.000000pt" height="30.000000pt" viewBox="0 0 60.000000 30.000000"
+                 preserveAspectRatio="xMidYMid meet">
+                <defs>
+                  <linearGradient id="Gradient1" x1="0" y1="0" x2="0" y2="100%">
+                    <stop offset="0%" stop-color="#ef8c3d" />
+                    <stop offset="100%" stop-color="#bc257c" />
+                  </linearGradient>
+                </defs>
+                <g transform="translate(0.000000,30.000000) scale(0.100000,-0.100000)"
+                  fill= "url(#Gradient1)" stroke="none">
+                  <path d="M148 148 l152 -153 152 153 153 152 -305 0 -305 0 153 -152z m289 5
+                    l-137 -138 -137 138 -138 137 275 0 275 0 -138 -137z"/>
+                </g>
+              </svg>
+            </div>
+          </div>
+      
+          <div class="feedback__content row">
+            <div class="col-lg-4">
+              <h5 class="feedback__sub-heading">Контакты</h5>
+              <p class="feedback__paragraph">
+                По этим контактам Вы можете связаться со мной, чтобы нанять меня для работы.
+              </p>
+      
+              <div class="feedback__item"><div class="feedback__item-phone"></div><span>Телефон : <a href="tel:1-123-6987-2369">+7(977)811-69-19</a></span></div>
+              <div class="feedback__item"><div class="feedback__item-email"></div><span>Почта : <a href="mailto:amelinivan@gmail.com">amelinivan@gmail.com</a></span></div>
+              <div class="feedback__item"><div class="feedback__item-skype"></div><span>Скайп : <a href="skype:amelinivan@gmail.com?call">amelinivan@gmail.com</a></span></div>
+              <div class="feedback__item"><div class="feedback__item-website"></div><span>Сайт : <a href="http://example.com">http://example.com</a></span></div>
+              <div class="feedback__item"><div class="feedback__item-fl"></div><span>FL.RU : <a href="http://fl.ru/amelinivan">http://fl.ru/amelinivan</a></span></div>
+            </div>
+      
+      
+            <form class="feedback__form col-lg-7 col-lg-offset-1" name="feedback" method="post" action="#">
+              <div class="col-lg-6 col-md-6">
+                <input class="feedback__form-firstname" type="text" name="firstname" placeholder="Имя" required />
+              </div>
+      
+              <div class="col-lg-6 col-md-6">
+                <input class="feedback__form-lastname" type="text" name="lastname" placeholder="Фамилия" required />
+              </div>
+      
+              <div class="col-lg-12 col-md-12">
+                <input class="feedback__form-email" type="email" name="email" placeholder="Ваш E-Mail" required />
+                <textarea class="feedback__form-message" name="message" placeholder="Ваше сообщение..."></textarea>
+                <input class="feedback__form-button" type="submit" name="submit_btn" value="Send now" />
+              </div>
+            </form>
+          </div><!--content+row-->
+        </div><!--container-->
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container"></div>
+    </footer>
+  </body>
+</html>
