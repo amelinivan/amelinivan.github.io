@@ -7,6 +7,33 @@
   </head>
   <body>
     <script type="text/javascript" src="js/main.js"></script>
+    <script>
+       function checkForm(form) {
+
+          var name = form.name.value;
+          var n = name.match(/^[A-Za-zА-Яа-я ]*[A-Za-zА-Яа-я ]+$/);
+          if (!n) {
+             alert("Имя введено неверно, пожалуйста исправьте ошибку");
+             return false;
+          }
+
+          var phone = form.phone.value;
+          var p = phone.match(/^[0-9+][0-9- ]*[0-9- ]+$/);
+          if (!p) {
+             alert("Телефон введен неверно");
+             return false;
+          }
+
+          var mail = form.mail.value;
+          var m = mail.match(/^[A-Za-z0-9][A-Za-z0-9\._-]*[A-Za-z0-9_]*@([A-Za-z0-9]+([A-Za-z0-9-]*
+          [A-Za-z0-9]+)*\.)+[A-Za-z]+$/);
+          if (!m) {
+             alert("E-mail введен неверно, пожалуйста исправьте ошибку");
+             return false;
+          }
+          return true;
+       }
+    </script>
     <div class="layout">
       <div class="modal fade portfolio__item-first" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
         <div class="modal-dialog modal-lg" role="document">
@@ -518,19 +545,19 @@
             </div>
       
       
-            <form class="feedback__form col-lg-7 col-lg-offset-1" name="feedback" method="post" action="#">
+            <form class="feedback__form col-lg-7 col-lg-offset-1" name="feedback" method="post" action="feedback.php" onSubmit="return checkForm(this)">
               <div class="col-lg-6 col-md-6">
                 <input class="feedback__form-firstname" type="text" name="firstname" placeholder="Имя" required />
               </div>
       
               <div class="col-lg-6 col-md-6">
-                <input class="feedback__form-lastname" type="text" name="lastname" placeholder="Фамилия" required />
+                <input class="feedback__form-email" type="email" name="email" placeholder="Ваш E-Mail" required />
               </div>
       
               <div class="col-lg-12 col-md-12">
-                <input class="feedback__form-email" type="email" name="email" placeholder="Ваш E-Mail" required />
+                <input class="feedback__form-subject" type="text" name="subject" placeholder="Тема сообщения" required />
                 <textarea class="feedback__form-message" name="message" placeholder="Ваше сообщение..."></textarea>
-                <input class="feedback__form-button" type="submit" name="submit_btn" value="Send now" />
+                <input class="feedback__form-button" type="submit" name="submit_btn" value="Отправить" />
               </div>
             </form>
           </div><!--content+row-->
